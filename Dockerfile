@@ -12,4 +12,4 @@ VOLUME ["/app"]
 WORKDIR /app
 
 # Define default command.
-CMD ["webpack"]
+ENTRYPOINT ["webpack"]
